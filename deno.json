@@ -1,0 +1,11 @@
+{
+  "name": "deno-batis",
+  "version": "0.0.1",
+  "imports": {
+    "@supabase/pg-parser": "npm:@supabase/pg-parser@0.1.2"
+  },
+  "tasks": {
+    "build": "deno run -A src/cli.ts build",
+    "test": "deno run -A src/cli.ts test"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "deno-batis-example",
+  "version": "0.0.1",
+  "tasks": {
+    "build": "deno run -A ../src/cli.ts build",
+    "test": "deno run -A ../src/cli.ts test"
+  }
+}
